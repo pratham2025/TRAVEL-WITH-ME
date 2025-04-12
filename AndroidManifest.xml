@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExploreEase"
+        tools:targetApi="31">
+        <activity
+            android:name=".dehotel"
+            android:exported="false" />
+        <activity
+            android:name=".deexplore"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".Maharashtra"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MHotels"
+            android:exported="false" />
+        <activity
+            android:name=".MExplore"
+            android:exported="false" />
+        <activity
+            android:name=".KaHotels"
+            android:exported="false" />
+        <activity
+            android:name=".KaExplore"
+            android:exported="false" />
+        <activity
+            android:name=".Karnataka"
+            android:exported="false" />
+        <activity
+            android:name=".JHotels"
+            android:exported="false" />
+        <activity
+            android:name=".JExplore"
+            android:exported="false" />
+        <activity
+            android:name=".Jammu"
+            android:exported="false" />
+        <activity
+            android:name=".HHotels"
+            android:exported="false" />
+        <activity
+            android:name=".HExplore"
+            android:exported="false" />
+        <activity
+            android:name=".Himachal"
+            android:exported="false" />
+        <activity
+            android:name=".GExplore"
+            android:exported="false" />
+        <activity
+            android:name=".GHotels"
+            android:exported="false" />
+        <activity
+            android:name=".Goa"
+            android:exported="false" />
+        <activity
+            android:name=".KeHotels"
+            android:exported="false" />
+        <activity
+            android:name=".KeExplore"
+            android:exported="false" />
+        <activity
+            android:name=".Kerala"
+            android:exported="false" />
+        <activity
+            android:name=".RHotels"
+            android:exported="false" />
+        <activity
+            android:name=".RExplore"
+            android:exported="false" />
+        <activity
+            android:name=".Rajasthan"
+            android:exported="false" />
+        <activity
+            android:name=".Travel7"
+            android:exported="false" />
+        <activity
+            android:name=".Travel6"
+            android:exported="false" />
+        <activity
+            android:name=".Travel5"
+            android:exported="false" />
+        <activity
+            android:name=".Travel4"
+            android:exported="false" />
+        <activity
+            android:name=".Travel3"
+            android:exported="false" />
+        <activity
+            android:name=".Travel2"
+            android:exported="false" />
+        <activity
+            android:name=".Travel1"
+            android:exported="false" />
+        <activity
+            android:name=".Explore"
+            android:exported="false" />
+        <activity
+            android:name=".Travel"
+            android:exported="false" />
+        <activity
+            android:name=".Flash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
